@@ -42,6 +42,7 @@ function enable() {
             }
         }
 
+        // run xbindkeys
         if ( GLib.file_test(app_config_dir + "/" + app_title_f + config_suffix, GLib.FileTest.IS_REGULAR) ) {
             if (DEBUG) { global.log("xbindkeys: activate: " + app_title); }
             Util.spawn([xbindkeys_bin, '-f', app_config_dir + "/" + app_title_f + config_suffix]);
