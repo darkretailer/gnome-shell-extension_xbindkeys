@@ -1,0 +1,19 @@
+<schemalist gettext-domain="gnome-shell-extensions">
+  <schema id="org.gnome.shell.extensions.xbindkeys"
+          path="/org/gnome/shell/extensions/xbindkeys/">
+    <key name="debug" type="b">
+      <default>false</default>
+      <summary>For debugging</summary>
+      <description>
+        Log additional information - see "journalctl -f"
+      </description>
+    </key>
+    <key name="autocreate" type="b">
+      <default>true</default>
+      <summary>Configfile autocreation </summary>
+      <description>
+        Create config-files per app or window automatically
+      </description>
+    </key>
+  </schema>
+</schemalist>
