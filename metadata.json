@@ -1,6 +1,6 @@
 {
-  "description": "Allows xbindkeys-Profiel per Application or Window. Needs xbindkeys to be installed.",
-  "extension-id": "windowexec",
+  "description": "Allows xbindkeys-Profiles per Application or Window. Needs xbindkeys to be installed.",
+  "extension-id": "xbindkeys",
   "gettext-domain": "gnome-shell-extensions",
   "name": "XBindKeys",
   "settings-schema": "org.gnome.shell.extensions.xbindkeys",
@@ -9,5 +9,5 @@
   ],
   "url": "https://github.com/darkretailer/gnome-shell-extension_xbindkeys",
   "uuid": "XBindKeys@darkretailer.github.com",
-  "version": 2
+  "version": 3
 }
