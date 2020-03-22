@@ -47,9 +47,11 @@ function enable() {
         if ( GLib.file_test(app_config_dir + "/" + app_title_f + config_suffix, GLib.FileTest.IS_REGULAR) ) {
             if (DEBUG) { global.log("xbindkeys: activate via title: " + app_config_dir + "/" + app_title_f + config_suffix); }
             Util.spawn([xbindkeys_bin, '-f', app_config_dir + "/" + app_title_f + config_suffix]);
+            Util.spawn([xbindkeys_bin, '-f', app_config_dir + "/" + app_title_f + config_suffix]);
 
         } else if ( GLib.file_test(app_config_dir + "/" + app_name_f + config_suffix, GLib.FileTest.IS_REGULAR) ) {
             if (DEBUG) { global.log("xbindkeys: activate via name: " + app_config_dir + "/" + app_name_f + config_suffix); }
+            Util.spawn([xbindkeys_bin, '-f', app_config_dir + "/" + app_name_f + config_suffix]);
             Util.spawn([xbindkeys_bin, '-f', app_config_dir + "/" + app_name_f + config_suffix]);
 
         } else {
