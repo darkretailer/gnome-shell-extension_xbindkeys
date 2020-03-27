@@ -71,9 +71,6 @@ function enable() {
                 Util.spawn([xbindkeys_bin]);
             });
         });
-        if (timer.quit()) {
-            global.log("timer quit");
-        }
     });
 }
 
