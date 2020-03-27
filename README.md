@@ -1,8 +1,15 @@
 # Gnome-Extension: xbindkeys
 
 ## Description
-
 This extension activates a [XBindKeys](https://www.nongnu.org/xbindkeys/xbindkeys.html)-profile per application or window-title.
+
+## Installation
+### Gnome-Extension Hub
+https://extensions.gnome.org/extension/2755/xbindkeys/
+
+### GitHub
+git clone git@github.com:darkretailer/gnome-shell-extension_maxi.git ~/.local/share/gnome-shell/extensions/XBindKeys@darkretailer.github.com
+
 
 ## Configuration
 
